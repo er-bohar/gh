@@ -15,5 +15,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Start the server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-    console.log(`Server is running on http://192.168.0.149:${PORT}`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
